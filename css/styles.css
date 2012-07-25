@@ -1,0 +1,33 @@
+body {
+  overflow: hidden;
+}
+
+#memecards ul li {
+  background: no-repeat center center;
+  display: none;
+  height: 460px;
+  width: 320px;
+}
+
+#memecards ul li:first-child {
+  display: block;
+}
+
+#memecards ul li.rage_guy { background-image: url('../images/rage_guy.png'); }
+#memecards ul li.okay { background-image: url('../images/okay.png'); }
+#memecards ul li.y_u_no { background-image: url('../images/y_u_no.png'); }
+#memecards ul li.trollface { background-image: url('../images/trollface.png'); }
+#memecards ul li.fuck_yea { background-image: url('../images/fuck_yea.png'); }
+#memecards ul li.forever_alone { background-image: url('../images/forever_alone.png'); }
+#memecards ul li.me_gusta { background-image: url('../images/me_gusta.png'); }
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #memecards ul li { background-size: 320px 480px; }
+  #memecards ul li.rage_guy { background-image: url('../images/rage_guy@2x.png'); }
+  #memecards ul li.okay { background-image: url('../images/okay@2x.png'); }
+  #memecards ul li.y_u_no { background-image: url('../images/y_u_no@2x.png'); }
+  #memecards ul li.trollface { background-image: url('../images/trollface@2x.png'); }
+  #memecards ul li.fuck_yea { background-image: url('../images/fuck_yea@2x.png'); }
+  #memecards ul li.forever_alone { background-image: url('../images/forever_alone@2x.png'); }
+  #memecards ul li.me_gusta { background-image: url('../images/me_gusta@2x.png'); }
+}
